@@ -71,7 +71,7 @@ class SanitizePasswordsProcessor(Processor):
     Asterisk out things that look like passwords, credit card numbers,
     and API keys in frames, http, and basic extra data.
     """
-    MASK = '*' * 8
+    MASK = '#' * 8
     #'authorization',
     FIELDS = frozenset([
 #        'password',
