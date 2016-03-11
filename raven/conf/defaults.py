@@ -39,7 +39,7 @@ CAPTURE_LOCALS = True
 
 # Client-side data processors to apply
 PROCESSORS = (
-    'raven.processors.SanitizePasswordsProcessor',
+#    'raven.processors.SanitizePasswordsProcessor',
 )
 
 try:
