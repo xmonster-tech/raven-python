@@ -72,11 +72,11 @@ class SanitizePasswordsProcessor(Processor):
     and API keys in frames, http, and basic extra data.
     """
     MASK = '*' * 8
+    #'authorization',
     FIELDS = frozenset([
         'password',
         'secret',
         'passwd',
-        'authorization',
         'api_key',
         'apikey',
         'sentry_dsn',
